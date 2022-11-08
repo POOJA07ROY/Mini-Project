@@ -1,34 +1,57 @@
 <html>
     <head>
-        <title>Home Page</title>
-        <style>
-            .two{
-                background-color: rgb(0, 0, 0);
-            }
-            .two a{
-                float : right ;
-                color:rgb(0, 0, 0);
-                text-align: center;
-                padding: 2.5%;
-                font-size: 17px;
-            }
-            .two a:hover{
-                background-color:rgb(231, 246, 250);
-                color :#333;
-            }
-
-            .two a.active{
-                background-color: rgb(14, 20, 188);
-            }
-        </style>
+        <title>Candidate Details</title>
     </head>
     <body>
-        <div class = "two">
-            <a href="fjfjj">Sign In</a>
-            <a href = "http://127.0.0.1:5500/login_page.html">Login</a>
-            <a href = "fdf">FAQs</a>
-            <a href = "fdf">Blog</a>
-            <a href = "http://127.0.0.1:5500/home_page.html">Home</a>
+        <div class="seven">
+            <br>
+            <br>
+            <label>Candidate Id:</label>
+            <input type = "text" >
+            <br>
+            <br>
+            <label>Party Name:</label>
+            <input type = "text" >
+            <br>
+            <br>
+            <label>Name:</label>
+            <input type = "text" >
+            <br>
+            <br>
+            <label>Gender:</label>
+            <input type = "radio" name = "fav_language">
+            <label>Male</label>
+            <input type = "radio" name = "fav_language">
+            <label>Female</label>
+            <br>
+            <br>
+            <label>Age:</label>
+            <input type = "text" >
+            <br>
+            <br>
+            <label>State:</label>
+            <input type = "text" >
+            <br>
+            <br>
+            <label>Constitution:</label>
+            <input type = "text" >
+        </div>
+
+        <div class="eight">
+            <br>
+            <br>
+            <label>District:</label>
+            <input type = "text" >
+            <br>
+            <br>
+            <label>Pincode:</label>
+            <input type = "text" >
+        </div>
+
+        <div class="nine">
+            <br>
+            <br>
+            <button type = "button" onclick = "alert('Registered Sucessfully')">Submit</button>
         </div>
     </body>
 </html>
